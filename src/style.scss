@@ -7,9 +7,17 @@ $game-field-width: $card-width * 4;
   .card {
     float: left;
     width: $card-width;
+    height: $card-width;
     padding: 5px;
     img {
       width: 100%;
+    }
+    &.card-hidden {
+      img {
+        visibility: hidden;
+      }
+      background-image: url("../images/question-mark.png");
+      background-size: $card-width;
     }
   }
 }
