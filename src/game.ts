@@ -9,7 +9,9 @@ class Game {
   }
 
   private initCards():Card[] {
-    console.log($('.card'));
-    return [];
+    var elements = document.getElementsByClassName('card');
+    return Array.prototype.map.call(elements, function (el, i) {
+      new Card(el);
+    });
   }
 }
