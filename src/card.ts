@@ -28,6 +28,7 @@ class Card {
 
   show():void {
     $(this.element).removeClass('card-hidden');
+    $(this.element.firstChild).hide().slideDown();
   }
 
   matchFound():void {
