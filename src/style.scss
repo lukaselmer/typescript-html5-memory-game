@@ -1,0 +1,15 @@
+$card-width: 128px;
+$game-field-width: $card-width * 4;
+
+.game-field {
+  width: $game-field-width;
+
+  .card {
+    float: left;
+    width: $card-width;
+    padding: 5px;
+    img {
+      width: 100%;
+    }
+  }
+}
