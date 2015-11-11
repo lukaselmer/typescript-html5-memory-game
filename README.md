@@ -1,4 +1,6 @@
-# Memory Game
+# TypeScript & HTML5 Memory: Luke's Famous Memory Game
+
+Simple tech demo of how to use TypeScript for implementing a memory game.
 
 ## Setup
 
