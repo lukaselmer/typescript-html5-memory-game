@@ -1,0 +1,16 @@
+.game-field {
+  width: 512px; }
+  .game-field .card {
+    float: left;
+    width: 128px;
+    height: 128px;
+    padding: 5px; }
+    .game-field .card img {
+      width: 100%; }
+    .game-field .card.card-hidden {
+      background-image: url("../images/question-mark.png");
+      background-size: 128px; }
+      .game-field .card.card-hidden img {
+        visibility: hidden; }
+
+/*# sourceMappingURL=style.css.map */
